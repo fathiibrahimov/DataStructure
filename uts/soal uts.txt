@@ -1,0 +1,134 @@
+ 	
+(lolbat20) List of List Obat Kekinian
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+- Jangan lupa menulis janji setia pada kejujuran sebagai komentar.
+
+Masa Depan Kakak-kakak semua akan berkah atau tidak, Kakak-kakak sendiri yang memilih.
+
+
+
+
+Kompetensi yang dievaluasi: kemampuan untuk memahami dan mengimplementasikan konsep list of list.
+
+Ketidaksesuaian proses kode program dengan spesifikasi soal dapat mengurangi nilai.
+
+
+
+Diberikan sebuah list of list pengkategorian dari jenis obat. Dimana sebuah obat kadarnya dapat turun menjadi obat biasa dan bukan obat keras ketika penelitiannya sudah lebih banyak untuk menetralisir yang menjadikannya obat keras, atau yang tadinya obat ringan ternyata menimbulkan efek samping jangka panjang sehingga berubah menjadi obat keras. Jadi perlu dipindah ke kategori yang benar berdasarkan jenis obat. Sehingga menjadikan list of list memiliki data yang kekinian. Urutan dari pengkategorian adalah obat keras terlebih dahulu yang kemudian diurutkan berdasarkan tahun obat kerasnya, dan dilanjutkan dengan nama obatnya, sehingga isi dari elemen besar/baris adalah jenis obat dan tahunnya. Saat perpindahan gunakan perpindahan elemen, bukan free lalu malloc lagi. Dan jika sebua kategori sudah tidak memiliki elemen kolom/kecil maka elemennya dihapus.
+Format Masukan:
+n, 0 < n < 50, integer jumlah banyaknya data obat.
+n baris data obat yang berisi jenis_obat tahun_release nama_obat
+m, 0 < m < 50, integer banyaknya data obat yang berubah tahun dan berubah kategori.
+m baris nama obat dan perubahan tahun.
+
+Format Keluaran:
+isi dari list of list.
+
+Contoh Masukan
+5
+keras 2000 codein
+keras 1999 paracetamol
+ringan 2001 gramafan
+keras 1986 mefenamat
+ringan 2002 grenadion
+2
+paracetamol 2009
+grenadion 2017
+
+
+Contoh Keluaran
+- obat keras
+1986 mefenamat
+2000 codein
+2017 grenadion
+
+- obat ringan
+2001 gramafan
+2009 paracetamol
+
+
+
+
+
+5
+keras 2000 codein
+keras 1999 paracetamol
+ringan 2001 gramafan
+ringan 2002 grenadion
+keras 1986 mefenamat
+2
+paracetamol 2009
+grenadion 2017
+
+
+
+5
+keras 2000 codein
+keras 1999 grenadion
+ringan 2001 gramafan
+ringan 2002 paracetamol
+keras 1986 mefenamat
+2
+paracetamol 2009
+grenadion 2017
+
+
+5
+keras 2000 paracetamol
+keras 1999 grenadion
+ringan 2001 gramafan
+ringan 2002 codein
+keras 1986 mefenamat
+2
+grenadion 2009
+paracetamol 2017
+
+
+
+5
+keras 2000 mefenamat
+keras 1999 grenadion
+ringan 2001 gramafan
+ringan 2002 codein
+keras 1986 paracetamol
+2
+grenadion 2009
+paracetamol 2017
+
+
+
+
+5
+keras 2000 codein
+keras 1999 paracetamol
+ringan 2001 gramafan
+keras 1986 mefenamat
+ringan 2002 grenadion
+2
+paracetamol 2009
+grenadion 2017
+
+
+
+keras 2017 grenadion
+ringan 2009 paracetamol
+keras 2000 codein
+ringan 2001 gramafan
+keras 1986 mefenamat
+
+
+
+5
+keras 2000 codein
+keras 1999 paracetamol
+ringan 2001 gramafan
+ringan 1986 mefenamat
+ringan 2002 grenadion
+2
+paracetamol 2009
+grenadion 2017

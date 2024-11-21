@@ -1,0 +1,64 @@
+(COVID201) Darurat Pasien Covid
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	5 MB
+
+
+
+Mang Oleh adalah seorang dokter di sebuah rumah sakit. Jadwal yang dimiliki oleh
+Mang Oleh sangatlah padat karena itu dia akan mendahulukan pasien yang kondisinya
+sudah parah terlebih dahulu untuk diperiksa olehnya.
+Bantulah pihak rumah sakit membuat program untuk skala kondisi pasien Mang Oleh.
+
+Catatan :
+1. Gunakan List tunggal statis untuk masalah ini
+2. Sorting tidak diperbolehkan mengubah index dari list
+
+Format Masukan :
+- Nama dan skala pasien (1-10)
+- Ascending (asc) atau Descending (desc)
+
+Format Keluaran :
+- Nama yang sudah di sort
+Contoh Masukan
+Wahuy 10
+Bibo 2
+Dani 7
+Risa 4
+Doyok 5
+asc
+
+
+Contoh Keluaran
+1. Bibo
+2. Risa
+3. Doyok
+4. Dani
+5. Wahuy
+
+
+
+
+Wahuy 10
+Bibo 2
+Dani 7
+Risa 4
+Doyok 5
+Asep 6
+Boni 8
+Deni 10
+Bambang 9
+asc
+
+Wahuy 10
+Bibo 2
+Dani 7
+Risa 4
+Doyok 5
+Asep 6
+Boni 8
+Deni 10
+Bambang 9
+desc

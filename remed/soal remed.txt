@@ -1,0 +1,61 @@
+Diberikan sebuah pohon biner dimana setiap simpulnya berisi tiga buah integer yang merepresentasikan jam menit detik dan sebuah string. Pohon yang diberikan adalah pohon biner lengkap. Hitunglah jumlah selisih waktu dalam detik dari setiap simpul daun anak kiri dan kanan dari semua simpul daun. Jika bingung dengan masukannya, silakan digambar di kertas terlebih dahulu. Semangaaaatttt.
+Format Masukan:
+n, 0 < n < 100, integer banyaknya simpul pada pohon biner.
+n baris simpul dengan format string_orang_tua string_nama_simpul jam menit detik kiri/kanan.
+Format Keluaran:
+sejumlah baris pasangan simpul daun dan selisihnya dimulai dari pasangan simpul daun paling kiri.
+total selisih dari semua pasangan simpul daun.
+
+Untuk test case pertama artinya:
+- simpul daun adalah simpul kiripertama dan simpul kananpertama
+- selisi waktu dari simpul kiripertama dan kananpertama adalah 11 menit 11 detik, yang jika dijadikan dalam detik adalah 671 detik.
+
+Untuk test case kedua artinya:
+- simpul daun adalah kehidupan adalah berusaha baik
+- selisi waktu dari simpul kehidupan dan adalah adalah 0 detik, sedangkang selisih waktu dari simpul berusaha dan baik adalah 3600 detik. Maka totalnya adalah 3600 detik
+
+Contoh Masukan
+3
+null roota 18 9 0 null
+roota kiripertama 17 9 9 kiri
+roota kananpertama 17 20 20 kanan
+
+
+Contoh Keluaran
+kiripertama kananpertama 671 detik
+total: 671 detik
+
+		
+Contoh Masukan 2
+7
+null roota 18 9 0 null
+roota kiripertama 17 9 9 kiri
+roota kananpertama 17 20 20 kanan
+kananpertama kehidupan 18 0 0 kiri
+kananpertama adalah 18 0 0 kanan
+kiripertama berusaha 19 20 20 kanan
+kiripertama baik 20 20 20 kiri
+
+
+Contoh Keluaran 2
+kehidupan adalah 0 detik
+baik berusaha 3600 detik
+total: 3600 detik
+
+
+15
+null roota 18 9 0 null
+roota kiripertama 17 9 9 kiri
+roota kananpertama 17 20 20 kanan
+kananpertama kehidupan 18 0 0 kiri
+kananpertama adalah 18 0 0 kanan
+kiripertama berusaha 19 20 20 kanan
+kiripertama baik 20 20 20 kiri
+baik a 1 1 1 kiri
+baik b 1 1 1 kanan
+berusaha c 1 1 1 kiri
+berusaha d 1 1 1 kanan
+kehidupan e 1 1 1 kiri
+kehidupan f 1 1 1 kanan
+adalah g 1 1 1 kiri
+adalah h 1 1 1 kanan

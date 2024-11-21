@@ -1,0 +1,73 @@
+(MDN20) Midun Playlist 2020
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+
+
+Midun adalah manusia yang tidak mau ketinggalan jaman. Ia selalu mendengarkan lagu-lagu
+yang baru rilis. Maka dari itu, ia diandalkan oleh teman-temannya untuk memberi informasi
+lagu-lagu tebaru. 
+
+Agar memudahkan midun, yuk bantu bikinin program informasi lagu-lagu terbaru versi Midun. 
+
+
+Format Keluaran : 
+Banyaknya data
+TanggalSekarang
+JudulLagu Penyanyi TanggalRilis Genre
+
+Format Keluaran : 
+=== DAFTAR LAGU ===
+- Daftar lagu yang umurnya baru 14 hari dari tanggal sekarang (tanpa tanggal rilis dan genre).
+- Durutkan dari tanggal rilis terlama.
+
+=== LAGU TERBARU ===
+- Daftar lagu yang umurnya baru 14 hari dari tanggal sekarang (tanpa tanggal rilis dan genre).
+- Diurutkan dari tanggal rilis terbaru.
+
+Catatan:
+- HANYA MENGGUNAKAN 1 LIST GANDA STATIS.
+- Pemilahan data dilakukan setelah semua data dimasukan pada list (Gunakan konsep Delete Elemen List).
+- Gunakan fungsi PrintElemenToHead (jadi tidak perlu buat 2 sorting)/
+- tanggal : 1 - 30.
+
+Contoh Masukan
+5
+22
+MaknaCinta RizkyFebian 10 Pop
+AkuYangSalah Elmatu 15 Jazz
+DatangUntukPergi Mahen 3 Pop
+MantanTeman ArsyWidianto 2 Koplo
+Nyaman Andmesh 20 Dangdut
+
+Contoh Keluaran
+=== DAFTAR LAGU ===
+MaknaCinta RizkyFebian
+AkuYangSalah Elmatu
+Nyaman Andmesh
+=== LAGU TERBARU ===
+Nyaman Andmesh
+AkuYangSalah Elmatu
+MaknaCinta RizkyFebian
+		
+Contoh Masukan 2
+2
+22
+MaknaCinta RizkyFebian 1 Pop
+AkuYangSalah Elmatu 2 Jazz
+
+Contoh Keluaran 2
+Tidak ada lagu terbaru.
+
+
+
+5
+22
+MaknaCinta RizkyFebian 1 Pop
+AkuYangSalah Elmatu 2 Jazz
+DatangUntukPergi Mahen 15 Pop
+MantanTeman ArsyWidianto 3 Koplo
+Nyaman Andmesh 20 Dangdut

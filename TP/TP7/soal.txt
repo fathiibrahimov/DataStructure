@@ -1,0 +1,72 @@
+(HPB20) Hype Prosesor Baru 2020
+
+Sebuah toko komputer sedang mengadakan penjualan perdana prosesor
+yang baru saja dirilis.
+Pihak toko tersebut membuat sistem tiket sebagai tanda bahwa
+pelanggan tersebut telah melakukan pre-order dan menjadi
+prioritas dalam antrian nanti, adapun sistem tiketnya adalah
+sebagai berikut:
+1. Golden tiket prioritas 1
+2. Silver tiket prioritas 2
+3. Bronze tiket prioritas 3
+
+Buatlah simulasi antrian dan hitunglah berapa lama waktu
+mengantri orang yang diminta hingga keluar dari antrian.
+
+Format Masukan:
+[nama][jenis tiket][waktu]
+[selesai]
+[nama orang yang ingin di hitung waktu mengantri]
+
+Fomrat Keluaran:
+[nama] mengantri selama [waktu]
+Daftar orang setelahnya:
+[nama]
+
+*Catatan:
+- Gunakan Queue Dinamis!
+- Apabila ada orang yang mempunyai jenis tiket yang sama,
+maka dia yang akan di tempatkan di belakang orang yang datang
+lebih dahulu.
+- Jenis tiket yang mempunyai prioritas lebih rendah tidak boleh
+mendahului jenis tiket yang mempunyai prioritas
+lebih tinggi(dalam posisi antrian)
+
+Contoh Masukan
+Marsha Reguler 23
+Muri Reguler 20
+Yoka Gold 43
+Rin Silver 32
+Rupi Gold 21
+Saki Bronze 15
+selesai
+Saki
+
+Contoh Keluaran
+Saki mengantri selama 111
+Daftar orang setelahnya:
+Marsha
+Muri
+
+
+Yoka
+Rupi
+Rin
+Saki
+Marsha
+Muri
+		
+Contoh Masukan 2
+Yuki Gold 15
+Saki Reguler 32
+Bulma Silver 23
+Rama Reguler 21
+Bisma Bronze 25
+Roma Reguler 24
+selesai
+Roma
+
+Contoh Keluaran 2
+Roma mengantri selama 140
+Daftar orang setelahnya:
+Tidak Ada Data.

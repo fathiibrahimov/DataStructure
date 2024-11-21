@@ -1,0 +1,87 @@
+6
+null#burana#2
+penyakit_lambung
+keterampilan_verbal
+burana#srisiam#2
+pejuang
+pantang_menyerah
+srisiam#sogodoll#1
+sabar
+burana#anosmum#3
+bisa_coding
+bisa_bersabar
+bisa_lebih_teliti
+anosmum#susanae#0
+sogodoll#hariefa#1
+ceria
+2
+sogodoll anosmum
+srisiam mandiri
+
+
+7
+null#burana#2
+penyakit_lambung
+keterampilan_verbal
+burana#srisiam#2
+pejuang
+pantang_menyerah
+srisiam#sogodoll#1
+sabar
+srisiam#sodara#1
+sodaraaneuy
+burana#anosmum#3
+bisa_coding
+bisa_bersabar
+bisa_lebih_teliti
+anosmum#susanae#0
+sogodoll#hariefa#1
+ceria
+2
+sogodoll anosmum
+srisiam mandiri
+
+jawaban :
+|burana
+|srisiam
+pejuang
+|sodara
+|anosmum
+|susanae
+|sogodoll
+|hariefa
+
+
+8
+null#burana#2
+penyakit_lambung
+keterampilan_verbal
+burana#srisiam#2
+pejuang
+pantang_menyerah
+srisiam#sogodoll#1
+sabar
+srisiam#sodara#1
+sodaraaneuy
+srisiam#sodaradarisodara#1
+sodaralagieuy
+burana#anosmum#3
+bisa_coding
+bisa_bersabar
+bisa_lebih_teliti
+anosmum#susanae#0
+sogodoll#hariefa#1
+ceria
+2
+sogodoll anosmum
+srisiam mandiri
+
+|burana
+|srisiam
+pejuang
+|sodara
+|sodaralagieuy
+|anosmum
+|susanae
+|sogodoll
+|hariefa
