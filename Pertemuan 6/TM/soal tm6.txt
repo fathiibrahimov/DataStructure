@@ -1,0 +1,56 @@
+(LOL120) List of List C1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+
+
+Buatlah sebuah List of List. Elemen List Besar akan menampung satu buah huruf dan Elemen List Kecil akan menampung satu buah kata yang diawali huruf yang ada di elemen List Besar-nya.
+
+Akan dimasukkan N huruf kedalam List besar dengan addLast yang setiap huruf diikuti oleh 4 kata berawalan huruf tersebut. 4 kata itu akan dimasukkan kedalam List Kecil huruf tersebut dengan urutan cara: addLast, addFirst, addAfter(elmt->col), addFirst. Kemudian, print elemen List of List tersebut.
+
+Format Masukkan
+N: Jumlah list besar
+M: Huruf,
+4 kata per huruf
+
+Format Keluaran
+N huruf elemen besar
+4 kata per huruf
+
+Contoh Masukan
+3
+a
+aku
+adalah
+anak
+ayahku
+b
+buku
+bisa
+baca
+bani
+c
+candil
+cilok
+cakue
+colenak
+
+Contoh Keluaran
+a
+ayahku
+adalah
+anak
+aku
+b
+bani
+bisa
+baca
+buku
+c
+colenak
+cilok
+cakue
+candil

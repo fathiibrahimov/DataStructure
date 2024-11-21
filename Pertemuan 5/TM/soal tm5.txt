@@ -1,0 +1,52 @@
+(LGD120) List Ganda Dinamis C1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+
+
+Buatlah sebuah List Ganda Dinamis untuk menyimpan pasangan kata. Lakukan perintah - perintah list dengan urutan berikut :
+
+addFirst
+addAfter L.first
+addBefore L.first->next (Buat sendiri prosedur baru (bisa edit dari addAfter))
+printElement
+
+delAfter L.first->next->prev
+addLast
+printElement
+
+delFirst
+addLast
+addAfter L.first->next
+delLast
+printElementToHead (Print dari tail ke head)
+
+delAll
+printElement
+Contoh Masukan
+albari barbar
+adithya adit
+audrey odey
+alfauzan ojan
+asdos strukdat
+fachri mang
+
+Contoh Keluaran
+albari barbar
+audrey odey
+adithya adit
+-----
+albari barbar
+adithya adit
+alfauzan ojan
+-----
+fachri mang
+alfauzan ojan
+adithya adit
+-----
+LGD Kosong
+-----
+

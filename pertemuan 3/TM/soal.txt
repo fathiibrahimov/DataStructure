@@ -1,0 +1,68 @@
+(LDT120) List Tunggal Dinamis C1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+
+
+Buatlah sebuah list tunggal dinamis untuk menyimpan nama - nama senyawa kimia dengan atribut nama, rumus kimia, dan konsentrasi.
+Lakukan perintah - perintah list dengan urutan berikut :
+
+addFirst
+addLast
+addFirst
+print
+addAfter L.first->next
+print
+deleteAfter L.first->next
+addLast
+print
+delFirst
+delLast
+print
+delAll
+print
+addLast
+print
+
+
+Format Masukan :
+nama senyawa, rumus kimia dan konsentrasi sebanyak 6
+
+Format Keluaran :
+data senyawa dan disetiap command print ditambah pembatas berupa ===== di baris akhir print
+
+Contoh Masukan
+AsamKlorida HCl 0.1
+GaramDapur NaCl 0.3
+KaliumHidroksida KOH 0.8
+SodaApi NaOH 0.05
+AsamSulfat H2SO4 1.0
+CukaDapur CH3COOH 0.001
+
+
+Contoh Keluaran
+=====
+KaliumHidroksida KOH 0.8
+AsamKlorida HCl 0.1
+GaramDapur NaCl 0.3
+=====
+KaliumHidroksida KOH 0.8
+AsamKlorida HCl 0.1
+SodaApi NaOH 0.05
+GaramDapur NaCl 0.3
+=====
+KaliumHidroksida KOH 0.8
+AsamKlorida HCl 0.1
+GaramDapur NaCl 0.3
+AsamSulfat H2SO4 1.0
+=====
+AsamKlorida HCl 0.1
+GaramDapur NaCl 0.3
+=====
+List Kosong
+=====
+CukaDapur CH3COOH 0.001
+=====

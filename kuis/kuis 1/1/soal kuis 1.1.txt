@@ -1,0 +1,54 @@
+  	
+(ltdpdh20) List Tunggal Dinamis Pindah
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+- Jangan lupa menulis janji setia pada kejujuran sebagai komentar.
+
+Masa Depan Kakak-kakak semua akan berkah atau tidak, Kakak-kakak sendiri yang memilih.
+
+
+
+
+Kompetensi yang dievaluasi: kemampuan untuk memahami dan mengimplementasikan konsep list tunggal.
+
+Ketidaksesuaian proses kode program dengan spesifikasi soal dapat mengurangi nilai.
+
+
+
+[Gunakan list tunggal representasi dinamis untuk soal ini]
+Diberikan sebuah masukan beberapa isi dari elemen list tunggal dinamis. Tugas Kakak-kakak semua adalah mengambil elemen dari list tunggal dinamis itu sesuai dengan permintaan user. Dan merangkainya kembali menjadi sebuah list tunggal dinamis yang lain tanpa melakukan alokasi elemen lagi. Elemen list terdiri dari string (maksimal 100 karakter) dan integer.
+Format Masukan:
+n, 0 < n < 50, integer banyaknya elemen list tunggal dinamis.
+n baris elemen list tunggal dinamis.
+m, 0 < m < 50, integer banyaknya elemen list tunggal dinamis yang perlu dipindah ke list baru.
+m baris elemen list tunggal dinamis yang dipindah.
+Format Keluaran:
+isi elemen di list pertama
+isi elemen di list kedua
+Contoh Masukan
+5
+soto 4500
+sate 2500
+ayam_bakar 12000
+nasi 3000
+rempeyek 1000
+3
+soto
+ayam_bakar
+rempeyek
+
+
+Contoh Keluaran
+Isi list pertama:
+sate 2500
+nasi 3000
+
+Isi list kedua:
+soto 4500
+ayam_bakar 12000
+rempeyek 1000
+

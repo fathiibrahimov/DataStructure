@@ -1,0 +1,66 @@
+(lgssts20) List Ganda Statis Sama Nggak Ya
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+- Jangan lupa menulis janji setia pada kejujuran sebagai komentar.
+
+Masa Depan Kakak-kakak semua akan berkah atau tidak, Kakak-kakak sendiri yang memilih.
+
+
+
+
+Kompetensi yang dievaluasi: kemampuan untuk memahami dan mengimplementasikan konsep list tunggal.
+
+Ketidaksesuaian proses kode program dengan spesifikasi soal dapat mengurangi nilai.
+
+
+
+[Gunakan list ganda representasi statis untuk soal ini]
+Diberikan sebuah list kartu yang perlu dimasukkan ke dalam list ganda statis. Elemen kartu terdiri dari sebuah string (dengan maksimal karakter 50). Kemudian diberikan kesempatan untuk memeriksa isi kumpulan kartu itu, apakah separuh kartu yang diakses dari depan memiliki urutan yang sama dengan urutan kartu yang diakses dari belakang. Jika tidak sama, tampilkan mulai tidak sama di urutan kartu yang keberapa.
+Format Masukan:
+n, 0 < n < 51, integer banyaknya kartu yang dimasukkan ke dalam list ganda.
+n baris string nama kartu yang dimasukkan ke dalam list ganda.
+Format Keluaran:
+urutan sama (untuk urutan sama, boleh ada 1 kartu di tengah yang tidak memiliki pasangan) atau urutan tidak sama beserta mulai kartu ke berapa tidak sama.
+
+Contoh Masukan
+6
+A3
+B3
+C3
+C3
+B3
+A3
+
+
+Contoh Keluaran
+urutan sama
+
+		
+Contoh Masukan 2
+5
+A3
+B3
+C3
+B3
+A3
+
+
+Contoh Keluaran 2
+urutan sama
+
+	       
+Contoh Masukan 3
+5
+A3
+B2
+C3
+B3
+A3
+
+
+Contoh Keluaran 3
+urutan tidak sama mulai urutan ke 2

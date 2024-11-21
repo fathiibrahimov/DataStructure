@@ -1,0 +1,58 @@
+ 	
+(LGS120) List Ganda Statis C1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+
+
+Buatlah sebuah list ganda statis untuk menyimpan daftar menu makanan di suatu restoran dengan atribut kode makanan, 
+
+nama makanan, dan harganya. Lakukan perintah-perintah list dengan urutan berikut :
+
+addLast
+addFirst
+print
+addAfter L.data[L.first].next
+delFirst
+print
+addFirst
+delAfter L.first
+print
+addFirst
+addLast
+printElementToHead
+delAll
+
+Ket: PrintElemetToHead adalah prosedur yang menampilkan elemen dari tail ke head
+
+Contoh Masukan
+F01 Nasgor 20K
+D22 TehManis 3K
+F13 Dimsum 15K
+D10 Kopi 12K
+D02 EsCincau 5K
+F03 Odading 10K
+
+Contoh Keluaran
+D22 TehManis 3K
+F01 Nasgor 20K
+==========
+F01 Nasgor 20K
+F13 Dimsum 15K
+==========
+D10 Kopi 12K
+F13 Dimsum 15K
+==========
+F03 Odading 10K
+F13 Dimsum 15K
+D10 Kopi 12K
+D02 EsCincau 5K
+==========
+List Kosong!
+==========
+
+
+
